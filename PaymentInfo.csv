@@ -1,0 +1,5 @@
+HotelName,Room#,RoomPrice,status(0:paid)(1:pending)(2:not paid),RoomServices,status,ExtraServices,status
+1223,207,200,2,60,2,0,0
+1223,208,250,0,0,0,0,0
+1223,209,250,0,0,15,0,0
+1224,209,250,0,0,15,0,0

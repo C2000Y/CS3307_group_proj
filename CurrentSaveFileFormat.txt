@@ -1,0 +1,49 @@
+1,
+2,3,4,5,6,7,2,8.12341,9.45234,m_strHotelName,m_strHotelCode,m_strLocation,
+1,2,3,4.52314,m_strOccupant,1,2,3,4,5,6,7,8,9,10,11,1,1,
+2,2,3,4.52314,m_strOccupant2,1,2,3,4,5,6,7,8,9,10,11,1,1,
+
+
+numbhotel, 1 
+int m_iOwnerID2 
+,int m_iHotelReg;3 
+,int m_iRating;4 
+,int m_iContractYear;5 
+,int m_iContractRemain;6 
+,int m_iNumEmployee;7 
+,int m_iNumOfRooms;1 
+,
+,float m_fMantainCost;8.12341
+,float m_fEarning;9.45234
+,
+,std::string m_strHotelName;
+,std::string m_strHotelCode;
+,std::string m_strLocation;
+,
+,std::vector<CRoom*> m_vecRooms;
+,/----------------------- room
+,int m_iRoomNumber;1
+,int m_iBookingStatus;2
+,int m_iBedNumber;3
+,
+,float m_fCost;4.52314
+,
+,std::string m_strOccupant;
+,
+,eROOMSIZE m_eRoomSize;1   --- 0 - small 1,mid etc
+,
+,int m_iCheckInYear;2
+,int m_iCheckInMonth;3
+,int m_iCheckInDay;4
+,int m_iCheckInHour;5
+,int m_iCheckInMinute;6
+,
+,int m_iCheckOutYear;7
+,int m_iCheckOutMonth;8
+,int m_iCheckOutDay;9
+,int m_iCheckOutHour;10
+,int m_iCheckOutMinute;11
+
+
+,bool m_bPetAllowed;1
+,bool m_bSmokeAllowed;1
